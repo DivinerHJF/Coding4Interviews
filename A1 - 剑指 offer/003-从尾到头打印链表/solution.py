@@ -51,7 +51,7 @@ class SingleLinkList(object):
             head = head.next
         res = []
         while stack:  # pop
-            res.append(stack.pop())
+            res.append(stack.pop(-1))
         return res
 
 
