@@ -30,7 +30,7 @@
 - 复杂度分析：
 
   - **时间复杂度 O(M+N)：** M, N 分别为链表 $l_1, l_2$ 的长度，合并操作需遍历两链表
-  - **空间复杂度 O(M+N)：** 加上栈空间的话，空间复杂度为 O(M+N)
+  - **空间复杂度 O(1)：** 节点引用 dum, cur 使用常数大小的额外空间
 
 
 ![图解](https://pic.leetcode-cn.com/88ea6a5ecc6e86d0c1b1e334f764476385ccaecaf1cb18db38be3b47cedda965-Picture4.png)
